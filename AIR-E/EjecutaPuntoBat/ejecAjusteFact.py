@@ -13,7 +13,7 @@ while True:
     if start_time <= now <= end_time:
         count += 1
         subprocess.run("D:/tareasProgramadas_tos/AjusteFacturacion/ejecAjusteFact.bat", shell=True)
-        #print(f"Ejecución número {count}, a las {now}")
+        print(f"Ejecución número {count}, a las {now}")
     else:
-        #print(f"Esperando para ejecutar... hora actual: {now}")
-        time.sleep(1800) # Esperar 30 minutos (1800 segundos)
+        print(f"Esperando para ejecutar... hora actual: {now}")
+    time.sleep(1800) # Esperar 30 minutos (1800 segundos)
