@@ -34,7 +34,7 @@ for forecast in response["list"]:
             daily_temperatures[daily_date] = daily_temperature
 
 # Crear un archivo CSV y escribir los datos de temperatura
-with open("C:/TalendDesc/temperaturas_barranquilla.csv", "w", newline="") as csvfile:
+with open("C:/DescargaPy/temperaturas_barranquilla.csv", "w", newline="") as csvfile:
     writer = csv.writer(csvfile)
     writer.writerow(["Fecha", "Temperatura"])
     for date, temperature in daily_temperatures.items():
