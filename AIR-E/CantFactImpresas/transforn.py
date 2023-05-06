@@ -14,3 +14,4 @@ resultado = pd.concat([hoja1, hoja2])
 
 # Guardamos el resultado en un nuevo archivo de Excel
 resultado.to_excel('nombre_del_nuevo_archivo.xlsx', index=False)
+print("prueba")
