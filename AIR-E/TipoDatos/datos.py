@@ -1,3 +1,4 @@
+# Conocer la codificacion de un archivo
 import chardet
 from tqdm import tqdm
 
