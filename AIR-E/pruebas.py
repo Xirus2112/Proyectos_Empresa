@@ -2,12 +2,16 @@
     --- Esta hoja es para solo pruebas a realizar ---
 """
 
-def find_max(nums):
-    max_num = float("-inf")
-    for num in nums:
-        if num > max_num:
-            max_num = num
-    return max_num
-find_max(2)
+aprobado = "aprobado"
+rechazado = "rechazado"
 
+atc = rechazado
+gf = aprobado
+ce = rechazado
 
+if atc == aprobado and ce == aprobado and gf == aprobado:
+    print("Aprobado")
+elif    atc == rechazado and ce == rechazado and gf == rechazado:
+    print("Rechazado")
+else:
+    print("Nada")
